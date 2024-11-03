@@ -1,0 +1,67 @@
+body {
+
+    background-color: rgb(136, 159, 167);
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Font1';
+    src: url('../fonts/Baskerville Bold Italic.ttf');
+}
+
+.film1 {
+    font-family: 'Font1', sans-serif;
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url('../fonts/ColumbiaRandom BoldItalic.ttf');
+}
+
+.film2 {
+    font-family: 'Font2', sans-serif;
+}
+
+@font-face {
+    font-family: 'Font3';
+    src: url('../fonts/PFAgoraSlabPro Bold.ttf');
+}
+
+.film3 {
+    font-family: 'Font3', sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.film1 p {
+    text-align: center;
+}
+
+.film2 p {
+    text-align: right;
+}
+
+.film3 p {
+    text-align: left;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+}
